@@ -135,4 +135,4 @@ The analysis provides a clear picture of British Airways' performance from a cus
 
 ## 📧 Contact
 
-For any questions or collaborations, please contact [ubahjohnson@gmail.com](mailto:ubahjohnson@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/johnson-ubah).
+For any questions or collaborations, please contact [e-mail](mailto:ubahjohnson@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/johnson-ubah).
