@@ -1,8 +1,8 @@
-pandas
-numpy
-Beautifulsoup
-request
-matplotlib
-re
 nltk
 seaborn
+pandas 
+beautifulsoup4 
+nltk 
+matplotlib 
+seaborn 
+wordcloud
