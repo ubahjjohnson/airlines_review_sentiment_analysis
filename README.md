@@ -78,7 +78,7 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 
 * **Beautiful Soup 4:** For web scraping.
 
-* **NLTK:** Specifically VADER for sentiment analysis.
+* **NLTK:** Specifically, VADER for sentiment analysis.
 
 * **Matplotlib:** For static plotting.
 
@@ -91,7 +91,7 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 1. **Clone the repository:**
 
    ```
-   git clone [https://github.com/your-username/british-airways-review-analysis.git](https://github.com/your-username/british-airways-review-analysis.git)
+   git clone https://github.com/ubahjjohnson/british-airways-review-analysis.git
    cd british-airways-review-analysis
    
    ```
