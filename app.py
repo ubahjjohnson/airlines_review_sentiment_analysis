@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-# # Download NLTK resources (only if not available to avoid unnecessary downloads)
+# Download NLTK resources (only if not available to avoid unnecessary downloads)
 nltk.download('vader_lexicon', quiet=True)
-#sia = SentimentIntensityAnalyzer()
+sia = SentimentIntensityAnalyzer()
 
 # Load trained sentiment model
 model = joblib.load("sentiment_model.pkl")
@@ -23,7 +23,7 @@ if st.button("Analyze Sentiment"):
     if user_input.strip():  # Ensures input is not empty or just whitespace
         # Predict sentiment using trained model
         try:
-            prediction = model.predict([user_input])[0]  # Adjust based on your model
+            prediction = sia.predict([user_input])[0]  # Adjust based on your model
             sentiment_label = "Positive 😊" if prediction == 1 else "Negative 😞"
         except Exception as e:
             st.error(f"Error in model prediction: {e}")
