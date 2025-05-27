@@ -1,6 +1,6 @@
 # Airline Review Analysis
 
-This repository contains the code and analysis of customer reviews for British Airways, scraped from `airlinequality.com`. The project aims to extract valuable insights into customer satisfaction, identify key areas of strength and weakness, and understand overall sentiment towards the airline. Visit this link https://wordsentimentanalyzer.streamlit.app/ to try out the sentiments of any word or sentence
+This repository contains the code and analysis of airline customer reviews, scraped from `airlinequality.com`. The project aims to extract valuable insights into customer satisfaction, identify key areas of strength and weakness, and understand overall sentiment towards the airline. Visit this link https://wordsentimentanalyzer.streamlit.app/ to try out the sentiments of any word or sentence
 
 ## 📌 Disclaimer
 
@@ -16,7 +16,7 @@ By using or referencing this repository, you acknowledge and accept these condit
 
 ## 🚀 Features
 
-* **Web Scraping:** Automated collection of British Airways customer reviews from `airlinequality.com` (first 1000 pages).
+* **Web Scraping:** Automated collection of airline customer reviews from `airlinequality.com` (first 1000 pages).
 
 * **Data Cleaning & Preprocessing:** Preparation of raw review data for analysis.
 
@@ -38,7 +38,7 @@ By using or referencing this repository, you acknowledge and accept these condit
 
 ## 📊 Data Source
 
-Customer reviews were programmatically scraped from [airlinequality.com](https://www.airlinequality.com/). The dataset comprises reviews collected from the first 1000 pages dedicated to British Airways.
+Customer reviews were programmatically scraped from [airlinequality.com](https://www.airlinequality.com/). The dataset comprises reviews collected from the first 1000 pages.
 
 ## 🛠️ Methodology
 
@@ -103,8 +103,8 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/ubahjjohnson/british-airways-review-analysis.git
-   cd british-airways-review-analysis
+   git clone https://github.com/ubahjjohnson/airline-review-analysis.git
+   cd airline-review-analysis
    
    ```
 
@@ -128,7 +128,7 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 4. **Execute the scraping script and Analysis Script**:
 
    ```
-   python british-Airways-Reviews-Analysis.ipynb
+   python Airline-Reviews-Analysis.ipynb
    
    ```
 
@@ -136,13 +136,13 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 
 ## 💡 Results & Insights
 
-The analysis provides a clear picture of British Airways' performance from a customer perspective. Key insights include:
+The analysis provides a clear picture of airline performance from a customer perspective. Key insights include:
 
 * The data indicates that 60% of customers would not recommend the flight, compared to 40% who would.
   
 * Among all cabin classes, Economy Class shows the highest dissatisfaction, resulting in the highest number of customers who would not recommend the flight..
 
-* Despite 57% of customers falling into the positive sentiment category, a portion of these individuals still chose not to recommend the flight.
+* Despite 57% of customers falling into the positive sentiment category, some of these individuals still chose not to recommend the flight.
 
 
 ## 📧 Contact
