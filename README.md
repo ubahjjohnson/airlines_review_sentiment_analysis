@@ -1,6 +1,18 @@
-# British Airways Customer Review Analysis
+# Airline Review Analysis
 
 This repository contains the code and analysis of customer reviews for British Airways, scraped from `airlinequality.com`. The project aims to extract valuable insights into customer satisfaction, identify key areas of strength and weakness, and understand overall sentiment towards the airline. Visit this link https://wordsentimentanalyzer.streamlit.app/ to try out the sentiments of any word or sentence
+
+## 📌 Disclaimer
+
+This project was developed solely for **educational and portfolio** purposes as part of a **Forage virtual experience program**, which provided permission to use a sample dataset for learning exercises.
+
+- This repository is **not affiliated with any airline or commercial entity**.
+- No personally identifiable information (PII) was collected, stored, or used.
+- The data used in this project was either simulated or explicitly permitted for educational use.
+- Please do not use this project or its contents to scrape or extract data from live websites without appropriate permissions and compliance with applicable data protection laws (e.g., GDPR, CCPA).
+
+By using or referencing this repository, you acknowledge and accept these conditions.
+
 
 ## 🚀 Features
 
