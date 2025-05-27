@@ -1,9 +1,7 @@
-pip>=25.1.1
+streamlit==1.45.0
 nltk 
 matplotlib 
 seaborn 
 wordcloud
-streamlit
-numpy
 joblib
 pickle
