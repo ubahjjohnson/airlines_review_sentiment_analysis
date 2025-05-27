@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Download NLTK resources (only if not available to avoid unnecessary downloads)
 nltk.download('vader_lexicon', quiet=True)
