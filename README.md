@@ -2,7 +2,7 @@
 
 ## 📝 Project Background
 
-This sentiment analysis project was originally inspired by a virtual simulation task completed via a Forage learning experience in early 2025. While the specific task has since been updated or removed from the platform, this implementation reflects the full scope of my independent work and skills applied during that experience.
+This sentiment analysis project was originally inspired by a virtual simulation task completed via a Forage learning experience in early 2025. While the specific task has been updated or removed from the platform, this implementation reflects the full scope of my independent work and skills applied during that experience.
 
 The app processes airline review data, classifies sentiment using natural language processing techniques, and displays results through a Streamlit interface.
 
