@@ -1,8 +1,7 @@
 streamlit
 nltk 
 matplotlib 
-seaborn 
-wordcloud
 joblib
-pickle
 pandas
+numpy
+scikit-learn
