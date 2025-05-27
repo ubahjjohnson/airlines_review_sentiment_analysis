@@ -6,8 +6,8 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # # Download NLTK resources (only if not available to avoid unnecessary downloads)
-# nltk.download('vader_lexicon', quiet=True)
-# sia = SentimentIntensityAnalyzer()
+nltk.download('vader_lexicon', quiet=True)
+#sia = SentimentIntensityAnalyzer()
 
 # Load trained sentiment model
 model = joblib.load("sentiment_model.pkl")
