@@ -13,6 +13,9 @@ sia = SentimentIntensityAnalyzer()
 # Load trained sentiment model
 model = joblib.load("sentiment_model.pkl")
 
+# text vectorizer
+vectorizer = TfidfVectorizer(stop_words='english')
+
 # Streamlit UI
 st.title("Sentiment Analysis App")
 st.subheader("Enter text to analyze sentiment:")
@@ -24,7 +27,8 @@ if st.button("Analyze Sentiment"):
     if user_input.strip():  # Ensures input is not empty or just whitespace
         # Predict sentiment using trained model
         try:
-            prediction = model.predict([user_input])[0]  # Adjust based on your model
+            review = vectorizer.fit_transform([user_input])
+            prediction = model.predict(review)[0]  # Adjust based on your model
             sentiment_label = "Positive 😊" if prediction == 1 else "Negative 😞"
         except Exception as e:
             st.error(f"Error in model prediction: {e}")
