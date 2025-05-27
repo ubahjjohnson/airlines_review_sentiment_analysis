@@ -1,7 +1,7 @@
 # Upgrade necessary packages
 import os
 
-os.system("pip install --upgrade streamlit pip")
+os.system("pip install --upgrade pip")
 
 import streamlit as st
 import joblib
