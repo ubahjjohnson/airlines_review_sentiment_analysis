@@ -134,16 +134,6 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 
    *(Note: The scraping process for 1000 pages can take a significant amount of time and may require handling rate limits or IP blocking. Ensure ethical scraping practices.)*
 
-## 💡 Results & Insights
-
-The analysis provides a clear picture of airline performance from a customer perspective. Key insights include:
-
-* The data indicates that 60% of customers would not recommend the flight, compared to 40% who would.
-  
-* Among all cabin classes, Economy Class shows the highest dissatisfaction, resulting in the highest number of customers who would not recommend the flight..
-
-* Despite 57% of customers falling into the positive sentiment category, some of these individuals still chose not to recommend the flight.
-
 
 ## 📧 Contact
 
