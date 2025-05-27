@@ -4,22 +4,17 @@ import os
 os.system("pip install --upgrade streamlit pip")
 
 import streamlit as st
-import pickle
+import joblib
 import matplotlib.pyplot as plt
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-# Download NLTK resources (only if not available to avoid unnecessary downloads)
-nltk.download('vader_lexicon', quiet=True)
-sia = SentimentIntensityAnalyzer()
+# # Download NLTK resources (only if not available to avoid unnecessary downloads)
+# nltk.download('vader_lexicon', quiet=True)
+# sia = SentimentIntensityAnalyzer()
 
 # Load trained sentiment model
-try:
-    with open("sentiment_model.pkl", "rb") as file:
-        model = pickle.load(file)
-except FileNotFoundError:
-    st.error("Sentiment model file not found! Please ensure 'sentiment_model.pkl' is available.")
-    st.stop()
+model = joblib.load("sentiment_model.pkl")
 
 # Streamlit UI
 st.title("Sentiment Analysis App")
@@ -39,7 +34,7 @@ if st.button("Analyze Sentiment"):
             st.stop()
 
         # Get sentiment scores using NLTK
-        sentiment_scores = sia.polarity_scores(user_input)
+        sentiment_scores = model.polarity_scores(user_input)
 
         # Display results
         st.subheader("Predicted Sentiment:")
