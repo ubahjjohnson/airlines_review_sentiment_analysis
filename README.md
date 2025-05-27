@@ -1,6 +1,10 @@
 # Airline Review Analysis
 
-This repository contains the code and analysis of airline customer reviews, scraped from `airlinequality.com`. The project aims to extract valuable insights into customer satisfaction, identify key areas of strength and weakness, and understand overall sentiment towards the airline. Visit this link https://wordsentimentanalyzer.streamlit.app/ to try out the sentiments of any word or sentence
+## 📝 Project Background
+
+This sentiment analysis project was originally inspired by a virtual simulation task completed via a Forage learning experience in early 2025. While the specific task has since been updated or removed from the platform, this implementation reflects the full scope of my independent work and skills applied during that experience.
+
+The app processes airline review data, classifies sentiment using natural language processing techniques, and displays results through a Streamlit interface.
 
 ## 📌 Disclaimer
 
@@ -14,27 +18,12 @@ This project was developed solely for **educational and portfolio** purposes as 
 By using or referencing this repository, you acknowledge and accept these conditions.
 
 
-## 🚀 Features
-
-* **Web Scraping:** Automated collection of airline customer reviews from `airlinequality.com` (first 1000 pages).
-
-* **Data Cleaning & Preprocessing:** Preparation of raw review data for analysis.
-
-* **Comprehensive Analysis:**
-
-  * Overall customer satisfaction assessment.
-
-  * Detailed sentiment analysis of review texts.
-
-  * Evaluation of aspect-specific ratings (e.g., seat comfort, food, service).
-
-  * Analysis of customer recommendation rates.
-
-  * Identification of trends in review volume over time.
-
-* **Key Driver Identification:** Pinpointing specific factors influencing positive and negative customer experiences.
-
-* **Interactive Visualizations:** Generation of various plots to effectively communicate findings.
+### 🚀 Key Features
+- Text preprocessing and TF-IDF vectorization
+- Automatic sentiment labeling using NLTK's VADER
+- Supervised learning with Logistic Regression and SVM
+- Deployment via Streamlit for interactive use
+- Emphasis on data ethics and privacy compliance
 
 ## 📊 Data Source
 
