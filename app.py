@@ -24,14 +24,14 @@ if st.button("Analyze Sentiment"):
     if user_input.strip():  # Ensures input is not empty or just whitespace
         # Predict sentiment using trained model
         try:
-            prediction = sia.predict([user_input])[0]  # Adjust based on your model
+            prediction = model.predict([user_input])[0]  # Adjust based on your model
             sentiment_label = "Positive 😊" if prediction == 1 else "Negative 😞"
         except Exception as e:
             st.error(f"Error in model prediction: {e}")
             st.stop()
 
         # Get sentiment scores using NLTK
-        sentiment_scores = model.polarity_scores(user_input)
+        sentiment_scores = sia.polarity_scores(user_input)
 
         # Display results
         st.subheader("Predicted Sentiment:")
