@@ -6,3 +6,7 @@ nltk
 matplotlib 
 seaborn 
 wordcloud
+streamlit
+numpy
+joblib
+pickle
