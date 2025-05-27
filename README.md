@@ -103,8 +103,8 @@ Customer reviews were programmatically scraped from [airlinequality.com](https:/
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/ubahjjohnson/airline-review-analysis.git
-   cd airline-review-analysis
+   git clone https://github.com/ubahjjohnson/airlines-review-sentiment-analysis.git
+   cd airlines-review-sentiment-analysis
    
    ```
 
